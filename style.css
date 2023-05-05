@@ -1,0 +1,207 @@
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    background-color:grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    height: 4.5rem;
+  }
+  
+#logo span {
+    font-size: 1.5rem;
+    color: white;
+  }
+
+nav {
+    display: flex;
+}
+
+.menu {
+    list-style: none;
+    margin: auto;
+}
+
+.menu li a {
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+    align-self: auto;
+    padding: 5px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a:hover {
+    color: white;
+}
+
+/* SECCIÓN CONFERENCIA */
+
+#Conferencia {
+    display: flex;
+    background-image: url(/resource/img/ba1.jpg);
+    height: 35rem;
+    color: white;
+    text-align: right;
+}
+
+#text-area {
+    position: absolute;
+    width: 30rem;
+    right: 5rem;
+    bottom: 15rem;
+}
+
+#text-area a {
+   color: white;
+   text-decoration: none;
+}
+
+#text-area span {
+    padding: 0.15rem 0.15rem 0.15rem 0.15rem;
+    margin-right: 0.5rem;
+}
+
+.botonera {
+    background-color: transparent;
+    color: white;
+    border: solid 1px white;
+    border-radius: 0.2rem;
+}
+
+.botonera:hover {
+    background-color: lightgreen;
+    border: none;
+}
+
+/* SECCIÓN ORADORES */
+
+#Oradores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Cards-Oradores {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.card {
+    margin-right: 1rem;
+}
+
+h6 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+/* SECCIÓN LUGAR Y FECHA */
+
+.contenedor {
+    display: flex;
+    width: 100%;
+    color: white;
+    background-color: grey;
+    border: solid 1px white;
+}
+
+.half {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+.right {
+   display: flex;
+   flex-direction: column;
+   margin-left: 1rem;
+  }
+
+.left img {
+   max-width: 100%;
+   max-height: 100%;
+   object-fit: contain;
+   border: solid 1px white;
+  }
+
+/* SECCIÓN CONVIÉRTETE EN ORADOR */
+
+#Conviertete-en-Orador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+#enviar {
+  background-color: orange;
+  color: white;
+  width: 50rem;
+  height: 2rem;
+  border: none;
+  margin-bottom: 1rem;
+  }
+
+/* SECCIÓN FOOTER */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  height: 5rem;
+  background-color: grey;
+  color: white;
+  }
+
+.footer {
+    list-style: none;
+    margin: auto;
+}
+
+.footer li a {
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+}
+
+.footer li {
+    display: inline-block;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 992px) {
+
+#Cards-Oradores {
+    flex-direction: column;
+}
+
+#Conviertete-en-Orador {
+    align-items: center;
+}
+
+.form-control {
+    width: 45rem;
+}
+
+@media (max-width: 576px) {
+* {
+    font-size: 0.9rem;
+    } 
+}
