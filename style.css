@@ -55,7 +55,7 @@ nav {
 #Conferencia {
     display: flex;
     background-image: url(/resource/img/ba1.jpg);
-    height: 35rem;
+    height: 40rem;
     color: white;
     text-align: right;
 }
@@ -164,6 +164,7 @@ h6 {
 footer {
   display: flex;
   justify-content: space-around;
+  text-align: center;
   height: 5rem;
   background-color: grey;
   color: white;
@@ -186,18 +187,61 @@ footer {
 
 /* RESPONSIVO */
 
+/* Estilos para el icono de hamburguesa */
+
+.menu-icon {
+    display: none; /* ocultar el icono en pantallas grandes */
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 5px;
+  }
+
+.menu-icon .line {
+    height: 3px;
+    width: 30px;
+    margin: 4px 0;
+    background-color: white;
+  }
+
 @media (max-width: 992px) {
+
+.menu-icon {
+    display: block;
+}
+
+.menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: grey;
+    width: 100%;
+    top: 6.25rem;
+    left: 0;
+}
+
+.menu li a {
+    margin-left: 14rem;
+}
 
 #Cards-Oradores {
     flex-direction: column;
 }
 
-#Conviertete-en-Orador {
-    align-items: center;
+.contenedor {
+    flex-direction: column;
+}
+
+.right {
+    margin-left: 0.4rem;
+    height: 12.5rem;
+}
+
+.row {
+    flex-direction: column;
 }
 
 .form-control {
-    width: 45rem;
+    margin-top: 1rem;
 }
 
 @media (max-width: 576px) {
