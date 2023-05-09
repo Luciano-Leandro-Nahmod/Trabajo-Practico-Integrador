@@ -187,7 +187,7 @@ footer {
 
 /* RESPONSIVO */
 
-/* Estilos para el icono de hamburguesa */
+/* ESTILOS PARA EL ICONO DE HAMBURGUESA */
 
 .menu-icon {
     display: none;
@@ -203,12 +203,16 @@ footer {
     background-color: white;
   }
 
+/* MEDIA QUERRIES */
+
 @media (max-width: 992px) {
+
+/* SECCION HEADER */
 
 .menu-icon {
     display: block;
 }
-
+    
 .menu {
     position: absolute;
     display: flex;
@@ -218,14 +222,18 @@ footer {
     top: 6.25rem;
     left: 0;
 }
-
+    
 .menu li a {
     margin-left: 8rem;
 }
 
+/* SECCION ORADORES */
+
 #Cards-Oradores {
     flex-direction: column;
 }
+
+/* SECCION LUGAR Y FECHA */
 
 .contenedor {
     flex-direction: column;
@@ -236,12 +244,16 @@ footer {
     height: 12.5rem;
 }
 
+/* SECCION COVIERTETE EN ORADOR */
+
 .row {
     flex-direction: column;
 }
 
 .form-control {
     margin-top: 1rem;
+}
+
 }
 
 @media (max-width: 576px) {
