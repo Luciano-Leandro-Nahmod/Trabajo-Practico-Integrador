@@ -153,7 +153,7 @@ h6 {
 #enviar {
   background-color: orange;
   color: white;
-  width: 50rem;
+  width: 80vw;
   height: 2rem;
   border: none;
   margin-bottom: 1rem;
@@ -190,7 +190,7 @@ footer {
 /* Estilos para el icono de hamburguesa */
 
 .menu-icon {
-    display: none; /* ocultar el icono en pantallas grandes */
+    display: none;
     border: 1px solid white;
     border-radius: 2px;
     padding: 5px;
@@ -220,7 +220,7 @@ footer {
 }
 
 .menu li a {
-    margin-left: 14rem;
+    margin-left: 8rem;
 }
 
 #Cards-Oradores {
