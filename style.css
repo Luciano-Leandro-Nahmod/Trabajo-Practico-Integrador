@@ -54,7 +54,7 @@ nav {
 
 #Conferencia {
     display: flex;
-    background-image: url(/resource/img/ba1.jpg);
+    background-image: url(./resource/img/ba1.jpg);
     height: 40rem;
     color: white;
     text-align: right;
